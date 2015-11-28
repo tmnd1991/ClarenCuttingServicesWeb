@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../img/logo.gif">
+
+    <title>Claren Cutting Services</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../../css/main.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="visible-xs col-xs-3"><a class="btn" href="../index.html"><img class="img-responsive" src="../../img/back_arrow.png"/></a></div>
+        <div class="visible-xs col-xs-8">
+          <a href="../../index/index.html"><img class="img-responsive" src="../../img/mobile_logo.png"/></a>          
+        </div>
+      </div>
+      <div class="row title_bar">
+        <div class="hidden-xs col-lg-2 text-center"><a href="../../index/index.html"><img class="img-responsive" src="../../img/logo.gif"/></a></div>
+        <div class="hidden-xs col-lg-2 text-center"><a href="../index.html"><img class="img-responsive" src="../../img/back_arrow.png"/></a></div>
+        <div class="col-xs-12 col-lg-4 text-center"><h1>CCS TECHNOLOGY</h1></div>
+        <div class="hidden-xs col-lg-2 text-center"><img class="img-responsive page_icon" src="../img/00_SlideC_BandaIcon.png"/></div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-lg-8 col-lg-offset-2">
+          <div class = "row" id="anim">
+            <div class="col-xs-12">
+              <div class="embed-responsive embed-responsive-16by9">
+                <div id="KeyShotVR"></div>
+              </div>
+            </div>
+          </div>
+          <div class = "row">
+            <div class="col-xs-12 col-lg-4 col-lg-offset-5">
+              <a class="btn btn-default" href="manual.html" role="button"><img class="img-responsive" src="../img/PdfIcon.png"/></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <link href="./css/unsemantic-grid-responsive-tablet.css" rel="stylesheet" />
+    <style type="text/css">
+        body {
+            -ms-touch-action:none;
+        }
+    </style>
+    <script type="text/javascript" src="slides/files/KeyShotVR.js"></script>
+    <script type="text/javascript">
+        var keyshotVR;
+
+        function initKeyShotVR() {
+        var nameOfDiv = "KeyShotVR";
+        var folderName = "slides";
+        var imageWidth = 1920;
+        var imageHeight = 1081;
+        var backgroundColor = "#FFFFFF";
+        var uCount = 22;
+        var vCount = 12;
+        var uWrap = true;
+        var vWrap = false;
+        var uMouseSensitivity = -0.061111;
+        var vMouseSensitivity = 0.150000;
+        var uStartIndex = 11;
+        var vStartIndex = 1;
+        var minZoom = 1.000000;
+        var maxZoom = 2.000000;
+        var rotationDamping = 0.960000;
+        var downScaleToBrowser = true;
+        var addDownScaleGUIButton = false;
+        var downloadOnInteraction = false;
+        var imageExtension = "jpg";
+        var showLoading = true;
+        var loadingIcon = "ks_logo.png"; // Set to empty string for default icon.
+        var allowFullscreen = true; // Double-click in desktop browsers for fullscreen.
+            keyshotVR = new keyshotVR(nameOfDiv,folderName,imageWidth,imageHeight,backgroundColor,uCount,vCount,uWrap,vWrap,uMouseSensitivity,vMouseSensitivity,uStartIndex,vStartIndex,minZoom,maxZoom,rotationDamping,downScaleToBrowser,addDownScaleGUIButton,downloadOnInteraction,imageExtension,showLoading,loadingIcon,allowFullscreen);
+        }
+
+        window.onload = initKeyShotVR;
+    </script>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
+

@@ -1,3 +1,20 @@
 body {
-  padding-top: 50px;
+  
+  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}
+h1{
+	font-size: 4rem;
+}
+h2{
+	font-size: 3.5rem;
+	color: red;
+}
+.title_bar {
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background-color: rgb(249,249,249);
+	border-bottom: solid;
+}
+.page_icon {
+	height: 64px;
 }

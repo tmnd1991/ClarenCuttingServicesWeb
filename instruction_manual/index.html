@@ -25,9 +25,17 @@
   </head>
   <body>
     <div class="container-fluid">
-      <div class="row" style="height: 10%">
-        <div class="col-xs-12 col-lg-2 text-center"><a href="../index/index.html"><img class="img-responsive" src="../img/logo.gif"/></a></div>
-        <div class="col-xs-12 col-lg-8 text-center"><h1>INSTRUCTION MANUAL</h1></div>
+      <div class="row">
+        <div class="visible-xs col-xs-3"><a class="btn" href="../index/index.html"><img class="img-responsive" src="../img/back_arrow.png"/></a></div>
+        <div class="visible-xs col-xs-8">
+          <a href="../index/index.html"><img class="img-responsive" src="../img/mobile_logo.png"/></a>          
+        </div>
+      </div>
+      <div class="row title_bar">
+        <div class="hidden-xs col-lg-2 text-center"><a href="../index/index.html"><img class="img-responsive" src="../img/logo.gif"/></a></div>
+        <div class="hidden-xs col-lg-2 text-center"><a href="../index/index.html"><img class="img-responsive" src="../img/back_arrow.png"/></a></div>
+        <div class="col-xs-12 col-lg-4 text-center"><h1>INSTRUCTION MANUAL</h1></div>
+        <div class="hidden-xs col-lg-2 text-center"><img class="img-responsive page_icon" src="img/02_SlideA/00_SlideA_BandaIcon.png"/></div>
       </div>
       <div class="row" style="margin-top: 40px">
         <div class="col-lg-2">
@@ -48,7 +56,7 @@
         </div>
         <div class="col-lg-8 slide" id="slide1">
           <div class="section">
-            <h1>Introduction</h1>
+            <h2>Introduction</h2>
             <p>The Claren Universal Folders have been designed to satisfy the following objectives:</p>
             <h3>Reduce format change time</h3>
             <p>Format change times are reduce by the reduction in the number of adjustments needed and also by the fact that the
@@ -67,7 +75,7 @@
 
         <div class="col-lg-8 slide hidden" id="slide2">
           <div class="section">
-            <h1>General Part Names and Functions</h1>
+            <h2>General Part Names and Functions</h2>
             <div class="row">
               <div class="col-lg-6">
                   <h3>Upper Fanning Air Jets and Folding Plates</h3>
@@ -135,7 +143,7 @@
         </div>
         <div class="col-lg-8 slide hidden" id="slide3">
           <div class="section">
-            <h1>Installation and Fixed Dimensions</h1>
+            <h2>Installation and Fixed Dimensions</h2>
             <div class="row">
               <div class="col-lg-6">
                   <h3>Machine Preparation</h3>
@@ -285,7 +293,7 @@
         </div>
       </div>
       <div class="col-lg-8 slide hidden" id="slide4">
-          <h1>Format Change</h1>
+          <h2>Format Change</h2>
           <div class="row">
             <h3>Overview</h3>
             <p>The format change remains the same for the following machine sections:<br> <strong>Infeed Conveyor, Launchers, Single Bar chain, Infeed Stacker, Double Bar Chain, Elevator and Side Plates, Lower Sealer, Sealing Belts and Knife and Poly Section</strong></p>
@@ -402,7 +410,6 @@
         slides.removeClass("hidden");
         slides.hide();
         $("#" + id).show();
-
       }
     </script>
   </body>
